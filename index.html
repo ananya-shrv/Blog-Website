@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Blog Website</title>
+
+  <!--- css link -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="light-theme">
+
+  <!--- HEADER -->
+
+  <header>
+
+    <div class="container">
+
+      <nav class="navbar">
+
+        <a href="#">
+          <img src="./Images/Logo.png" alt="Logo" width="150" class="logo-light">
+        </a>
+
+        <div class="btn-group">
+
+          <button class="theme-btn theme-btn-mobile light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="flex-wrapper">
+
+          <ul class="desktop-nav">
+
+            <li>
+              <a href="#" class="nav-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav-link">About Me</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+
+          </ul>
+
+          <button class="theme-btn theme-btn-desktop light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="mobile-nav">
+
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="wrapper">
+
+            <p class="h3 nav-title">Main Menu</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">About Me</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+            </ul>
+
+          </div>
+
+          <div>
+
+            <p class="h3 nav-title">Topics</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Blockchain</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Artificial Intelligence</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Cybersecurity</a>
+              </li>
+              
+              <li class="nav-item">
+                <a href="#" class="nav-link">Big Data</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Cloud Computing</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">IOT</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Data Science</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Web Development</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Robotics</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Hacking</a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+  <main>
+
+    <!--- HERO SECTION -->
+
+    <div class="hero">
+
+      <div class="container">
+
+        <div class="left">
+
+          <h1 class="h1">
+            Hi, I'm <b>Abc&nbsp;Xyz</b>,
+            <br>a Tech Enthusiast.
+          </h1>
+
+
+          <div class="btn-group">
+            <a href="#" class="btn btn-primary">Contact Me</a>
+            <a href="#" class="btn btn-secondary">About Me</a>
+          </div>
+
+        </div>
+
+        <div class="right">
+
+          <div class="pattern-bg"></div>
+          <div class="img-box">
+            <img src="./Images/hero-img.png" alt="Abc Xyz" class="hero-img">
+            <div class="shape shape-1"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="main">
+
+      <div class="container">
+
+        <!--- BLOG SECTION -->
+
+        <div class="blog">
+
+          <h2 class="h2">Latest Blog Post</h2>
+
+          <div class="blog-card-group">
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./Images/blockchain.png" alt="Blockchain"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Blockchain</button>
+
+                <h3>
+                  <a href="#" class="h3">
+                    Demystifying Blockchain: Exploring the Revolutionary Technology Behind Cryptocurrencies
+                  </a>
+                </h3>
+
+                <p class="blog-text">
+                    In this comprehensive guide, we delve into the inner workings of blockchain technology and its role in powering decentralized digital currencies like Bitcoin.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./Images/hero-img.png" alt="Abc Xyz" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Abc Xyz</a>
+
+                    <p class="text-sm">
+                      <time datetime="2022-01-17">July 10, 2023</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M">3 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./Images/ai.jpg" alt="AI" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Artificial Intelligence</button>
+
+                <h3><a href="" class="h3">The Future of Artificial Intelligence: Unleashing the Potential of Machine Learning and Deep Learning</a></h3>
+
+                <p class="blog-text">
+                    Discover how AI is transforming industries and revolutionizing the way we interact with technology through machine learning and deep learning algorithms.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./Images/hero-img.png" alt="Abc Xyz" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Abc Xyz</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-12-10">July 5, 2023</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT2M">2 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./Images/cyber.jpg" alt="Cybersecurity" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Cybersecurity</button>
+
+                <h3><a href="" class="h3">Cybersecurity 101: Essential Strategies to Safeguard Your Digital Life</a></h3>
+
+                <p class="blog-text">
+                    Learn the fundamental techniques and best practices to protect yourself against cyber threats and keep your personal information secure in the digital age.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./Images/hero-img.png" alt="Abc Xyz" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Abc Xyz</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-11-28">June 30, 2023</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT4M">4 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./Images/bigdata.jpg" alt="Big Data"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Big Data</button>
+
+                <h3><a href="" class="h3">The Power of Big Data: Harnessing Insights for Business Growth and Innovation</a></h3>
+
+                <p class="blog-text">
+                    Explore the immense potential of big data analytics in uncovering valuable insights, driving strategic decision-making, and fueling innovation across industries.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./Images/hero-img.png" alt="Abc Xyz" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Abc Xyz</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-11-20">June 25, 2023</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT4M">4 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./Images/cloud.jpg"
+                  alt="Cloud Computing" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Cloud Computing</button>
+
+                <h3><a href="" class="h3">Mastering Cloud Computing: A Comprehensive Guide to Cloud Infrastructure and Services</a></h3>
+
+                <p class="blog-text">
+                    Gain a solid understanding of cloud computing concepts, explore various cloud deployment models, and learn how to leverage cloud services for scalable and cost-effective solutions.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./Images/hero-img.png" alt="Abc Xyz" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Abc Xyz</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-11-10">June 20, 2023</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M">3 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./Images/iot.jpg"
+                  alt="IOT" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">IOT</button>
+
+                <h3><a href="" class="h3">The Internet of Things: Exploring the Connected World of Smart Devices</a>
+                </h3>
+
+                <p class="blog-text">
+                    Delve into the world of IoT and discover how interconnected devices are reshaping our homes, cities, and industries, paving the way for a smarter and more efficient future.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./Images/hero-img.png" alt="Abc Xyz" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Abc Xyz</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-10-25">June 15, 2023</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT7M">7 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./Images/datascience.jpg"
+                  alt="Data Science" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Data Science</button>
+
+                <h3><a href="" class="h3">Data Science Demystified: Unraveling the Art of Extracting Knowledge from Data</a></h3>
+
+                <p class="blog-text">
+                    Unlock the secrets of data science, from data wrangling and exploratory analysis to predictive modeling and visualization, and unleash the power of data-driven decision-making.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./Images/hero-img.png" alt="Abc Xyz" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Abc Xyz</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-10-15">June 10, 2023</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT5M">5 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./Images/frontend.png" alt="Front-End Development"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Web Development</button>
+
+                <h3><a href="" class="h3">Mastering Front-End Development: Building Engaging and Responsive User Interfaces</a></h3>
+
+                <p class="blog-text">
+                    Learn the essential skills and tools required to create captivating user interfaces, responsive designs, and immersive web experiences using HTML, CSS, and JavaScript.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./Images/hero-img.png" alt="Abc Xyz" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Abc Xyz</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-10-03">June 5, 2023</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT5M">5 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./Images/robotics.jpg" alt="Robotics"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Robotics</button>
+
+                <h3><a href="" class="h3">Introduction to Robotics: Exploring the World of Automated Machines and Artificial Intelligence</a>
+                </h3>
+
+                <p class="blog-text">
+                    Dive into the fascinating field of robotics, from industrial automation to humanoid robots, and discover the interplay between hardware, software, and AI algorithms.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./Images/hero-img.png" alt="Abc Xyz" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Abc Xyz</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-09-13">May 31, 2023</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT7M">7 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./Images/hacking.jpg"
+                  alt="Ethical Hacking" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Hacking</button>
+
+                <h3><a href="" class="h3">Ethical Hacking: Unveiling the Secrets of White Hat Security Professionals</a></h3>
+
+                <p class="blog-text">
+                    Explore the world of ethical hacking, understand the methodologies used by security experts to identify vulnerabilities, and learn how to protect your systems from malicious attacks.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./Images/hero-img.png" alt="Abc Xyz" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Abc Xyz</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-09-21">May 25, 2023</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT4M">4 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <button class="btn load-more">Load More</button>
+
+        </div>
+
+        <!--- ASIDE -->
+
+        <div class="aside">
+
+          <div class="topics">
+
+            <h2 class="h2">Topics</h2>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="server-outline"></ion-icon>
+              </div>
+
+              <p>Blockchain</p>
+            </a>
+
+            <a href="#" class="topic-btn">
+                <div class="icon-box">
+                  <ion-icon name="server-outline"></ion-icon>
+                </div>
+  
+                <p>AI</p>
+              </a>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="accessibility-outline"></ion-icon>
+              </div>
+
+              <p>Cybersecurity</p>
+            </a>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="rocket-outline"></ion-icon>
+              </div>
+
+              <p>big Data</p>
+            </a>
+
+            <a href="#" class="topic-btn">
+                <div class="icon-box">
+                  <ion-icon name="server-outline"></ion-icon>
+                </div>
+  
+                <p>Cloud Computing</p>
+              </a>
+
+              <a href="#" class="topic-btn">
+                <div class="icon-box">
+                  <ion-icon name="server-outline"></ion-icon>
+                </div>
+  
+                <p>IOT</p>
+              </a>
+
+              <a href="#" class="topic-btn">
+                <div class="icon-box">
+                  <ion-icon name="server-outline"></ion-icon>
+                </div>
+  
+                <p>Data Science</p>
+              </a>
+
+              <a href="#" class="topic-btn">
+                <div class="icon-box">
+                  <ion-icon name="server-outline"></ion-icon>
+                </div>
+  
+                <p>Web Develoment</p>
+              </a>
+
+              <a href="#" class="topic-btn">
+                <div class="icon-box">
+                  <ion-icon name="server-outline"></ion-icon>
+                </div>
+  
+                <p>Robotics</p>
+              </a>
+
+              <a href="#" class="topic-btn">
+                <div class="icon-box">
+                  <ion-icon name="server-outline"></ion-icon>
+                </div>
+  
+                <p>Hacking</p>
+              </a>
+
+          </div>
+
+          <div class="tags">
+
+            <h2 class="h2">Tags</h2>
+
+            <div class="wrapper">
+
+              <button class="hashtag">#blockchain</button>
+              <button class="hashtag">#artificialintelligence</button>
+              <button class="hashtag">#cloudcomputing</button>
+              <button class="hashtag">#cybersecurity</button>
+              <button class="hashtag">#webdevelopment</button>
+              <button class="hashtag">#hacking</button>
+              <button class="hashtag">#big data</button>
+              <button class="hashtag">#datascience</button>
+
+            </div>
+
+          </div>
+
+          <div class="contact">
+
+            <h2 class="h2">Let's Talk</h2>
+
+            <div class="wrapper">
+
+              <p>
+                Feel free to contact me for any further inquiries or assistance. I am here to help!
+              </p>
+
+              <ul class="social-link">
+
+                <li>
+                  <a href="#" class="icon-box twitter">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="icon-box facebook">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+          <div class="newsletter">
+
+            <h2 class="h2">Newsletter</h2>
+
+            <div class="wrapper">
+
+              <p>
+                Subscribe to our newsletter to be among the first to keep up with the latest updates.
+              </p>
+
+              <form action="#">
+                <input type="email" name="email" placeholder="Email Address" required>
+
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+              </form>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <!--- #FOOTER -->
+
+  <footer>
+
+    <div class="container">
+
+      <div class="wrapper">
+
+        <a href="#" class="footer-logo">
+          <img src="./Images/Logo.png" alt="Logo" width="150" class="logo-light">
+        </a>
+
+        <p class="footer-text">
+            Welcome to our blog, a place where curiosity meets knowledge. We invite you to explore our collection of insightful articles and engaging content. Feel free to dive in and discover new perspectives, helpful tips, and inspiring ideas. Join us on this enriching journey of exploration and learning.
+        </p>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Quick Links</p>
+
+        <ul>
+
+          <li>
+            <a href="#" class="footer-link">Advertise with us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Legal Stuff</p>
+
+        <ul>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Notice</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Cookie Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms Of Use</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  <!--- custom js link -->
+  <script src="script.js"></script>
+
+  <!--- ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
